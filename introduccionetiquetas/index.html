@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><!--el meta me sirve para........-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduccion Etiquetas</title>
+    <style>
+        ul{
+            list-style: none;
+            background-color: chocolate;
+        }
+        ul li{
+            display: inline-block;
+        }
+        ul li a{
+            color: white;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body><!--Esta es la etiqueta del body que me sirve para maquetar todo mi documento html-->
+    <p name="parrafonumero1" id="idParrafoUno" class="classParrafoUno">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque voluptatem officiis repudiandae? Reprehenderit omnis corporis tempora ab inventore eius iste porro, consequuntur, quam sunt quia. Mollitia laborum voluptates dolor sunt?
+    </p>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../introduccionhtml/index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="#">CURSOS</a>
+                </li>
+                <li>
+                    <a href="#">INSTRUCTORES</a>
+                </li>
+                <li>
+                    <a href="#">ACERCA DE</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+       <h1>Titulo 1</h1> 
+       <h2>Titulo 2</h2>
+       <h3>Titulo 3</h3>
+       .
+       .
+       .
+       <h6>Titulo 6</h6>
+       <ul>
+        <li value="00001">Colombia</li>
+        <li value="00002">Ecuador</li>
+        <li value="00003">Inglaterra</li>
+       </ul>
+       <ol>
+        <li>Manzana</li>
+        <li>Pera</li>
+        <li>Otra</li>
+       </ol>
+       <input type="datetime" />
+       <input type="text"/>
+       <input type="checkbox" name="" id="">
+       <input type="date" name="" id="">
+       <input type="email" name="" id="">
+       <a href="https://www.google.com">Ir a google</a>
+       <section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam iste animi temporibus optio quis eos quo officiis, sunt non eum est reiciendis dignissimos minima laborum laboriosam assumenda ullam aliquid illum.</p>
+        <img src="https://cdn.onemars.net/sites/nutro_es_NkyIN_B9cV/image/20_1615982101979.jpeg" alt="Gato Sonriente" />
+        <!--El .. sirve para salirme de las carpetas y el . sirve para indicar un archivo que se encuentra dentro de la carpeta-->
+        <img src="../imagenes/gato.jpg" /><!--Ruta relativa, saliendome de la carpeta contenedora de mi html-->
+        <img src="./gato.jpg" /><!--Ruta relativa, indicando que mi archivo se encuentra en la misma carpeta de mi html-->
+        <figure>
+            <img src="../introduccionhtml/gato.jpg" alt="Gato sonriente" />
+        </figure>
+       </section>
+       <select >
+        <option value="JavaScript">JavaScript</option>
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+       </select>
+       <input list="listaLenguajes" />
+       <datalist id="listaLenguajes">
+        <option value="JavaScript"></option>
+        <option value="HTML"></option>
+        <option value="CSS"></option>
+       </datalist>
+       <form action="#">
+        <label for="inputNombre">
+            <span>Nombre:</span>
+            <input type="text" id="inputNombre">
+        </label>
+        <label for="inputApellido">
+            <span>Apellido:</span>
+            <input type="text" id="inputApellido" />
+        </label>
+        <label for="selectSexo">
+            <span>Sexo:</span>
+            <select id="selectSexo">
+                <option>Masculino</option>
+                <option>Femenino</option>
+            </select>
+        </label>
+        <button>Guardar</button>
+        <input type="button" value="Enviar" />
+       </form>
+
+    </main>
+    <footer>
+        
+    </footer>
+</body><!--Etiqueta de cierre del body-->
+</html><!--Etiqueta de cierre del html-->
