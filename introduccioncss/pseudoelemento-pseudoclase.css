@@ -1,0 +1,27 @@
+section{
+    border: 1px solid green;
+    margin-bottom: 15px;
+}
+
+.parrafoPseudoElemento::first-letter{
+    font-size: 30px;
+    color:chocolate;
+}
+
+input:focus{
+    background-color: cornflowerblue;
+    font-size: 50px;
+    color:brown;
+}
+
+a:hover{
+    text-decoration: none;
+    color:white;
+    background-color: brown;
+}
+
+.parrafoPseudoClase:active{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:blanchedalmond;
+}

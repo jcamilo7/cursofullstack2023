@@ -1,0 +1,14 @@
+/*Selector por etiqueta*/
+p{
+    color:cadetblue;
+    font-size: 50px;
+}
+/*Selector por clase*/
+.classParrafo{
+    color:brown;
+    font-size: 16px;
+}
+/*Selector por identificador*/
+#idParrafo{
+    color: green;
+}

@@ -1,0 +1,22 @@
+/*
+Selectores:
+1. etiqueta
+2. clase - puede estar presenta en una o muchas etiquetas
+3. id - solo puede estar en una etiqueta
+4. * - llamado selector universal
+*/
+
+h1{
+    font-size: 30px;
+    color:chocolate;
+}
+
+.texto{
+    font-family: monospace;
+    font-size: 20px;
+
+}
+
+.imagenesMuestra{
+    width: 700px;
+}

@@ -1,0 +1,29 @@
+.classHyper{
+    font-size: 20px;
+    color:cadetblue;
+    background-color: white;
+}
+
+.classHyper.classManzana{
+    color:red;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    background-color: azure ;
+    text-decoration: none;
+    font-size:16px;
+    /*color:black !important;*/
+    color: black;
+}
+
+.classMango{
+    color: red;
+}
+
+#idMango{
+    color:darkorange;
+}
