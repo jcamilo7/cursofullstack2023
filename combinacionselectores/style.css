@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: cadetblue;
+}
+
+/* Primera combinador Descendente */
+
+/* section h1{
+    color:blue;
+}  */
+
+/* Segundo combinador hermano cercano*/
+
+/* p + h1{
+    color:brown;
+} */
+
+/* Tercer combinador hermano general */
+
+/* p ~ h1{
+    color:brown;
+} */
+
+/* Cuarta combiandor hijo */
+
+/* section > h1{
+    color:blue
+} */

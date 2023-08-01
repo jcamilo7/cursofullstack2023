@@ -1,0 +1,14 @@
+.section{
+    border: solid 6px #3333;
+    /* border-top: 6px;
+    border-left: 6px; */
+    margin-left: 100px;
+    padding-left: 6px ;
+
+}
+
+#section{
+    margin-top: 50px;
+    border: dotted 5px #3333;
+    width:300px
+}
