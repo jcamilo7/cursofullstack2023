@@ -5,6 +5,45 @@ Selectores:
 3. id - solo puede estar en una etiqueta
 4. * - llamado selector universal
 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    width: 100%;
+    height: 10rem;
+    border: 0.3rem solid black;
+}
+
+header > img{
+    width: 9.5rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    height: 7rem;
+}
+
+nav{
+    display: inline-block;
+    position: relative;
+    left: 87.5rem;
+    bottom: 3rem;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 2.5rem;
+    padding: 2rem;
+}
 
 h1{
     font-size: 30px;

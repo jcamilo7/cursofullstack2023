@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    background-color: #3333;
+}
+
+header{
+    border: 0.2rem solid #333;
+    background-color: white;
+}
+
+main{
+    display: flex;
+    height: 70rem;
+
+}
+
+.sectionInformacion{
+    display:flex;
+    flex-direction: column;
+    height: 25rem;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.sectionPrincipal{
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+    justify-content: space-around;
+}
+
+.sectionFotos{
+    background-color: white;
+    border-radius: 0.5rem;
+}

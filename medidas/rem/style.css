@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    /* Medida para que un rem sea equivalente a 10px */
+    font-size: 62.5%;
+}
+/* El rem a diferencia del em, va a estar pendiente de la medida del root que se cargue en el navegador */
+p{
+    font-size: 2.6rem;
+}

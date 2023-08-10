@@ -1,0 +1,25 @@
+form{
+    border: 0.3rem solid black;
+    width: 75rem;
+    margin: 0 auto;
+}
+
+input{
+    width: 20rem;
+    height: 2.5rem;
+    margin: 0.5rem;
+}
+
+span{
+    font-size: 1.6rem;
+    margin: 0.5rem;
+    display:block;
+}
+
+label{
+
+}
+
+.boton{
+    width: 10rem
+}

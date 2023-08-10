@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%; 
+    /* 1rem -> 10px */
+}
+
+body{
+    font-size: 1.6rem;
+    /* 1.6rem -> 16px */
+}
+
+main{
+    border: 0.2rem solid black;
+    width: 100%;
+    display:flex;
+    /* wrap me permite que los elementos re agrupen en una nueva linea cuando la pantalla del dispositivo se hace más pequeña */
+    flex-wrap: wrap; 
+    justify-content:space-evenly;
+}
+
+section{
+    width: 25rem;
+    height: 25rem;
+    border: 0.2rem solid red;
+}
