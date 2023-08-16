@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+main{
+    display: grid;
+    /* grid-template-areas: 
+        "articulo1 articulo3 articulo3"
+        "articulo4 articulo3 articulo3"
+        "articulo2 articulo5 articulo6"; */
+    grid-template-columns: repeat(3, 40rem);
+    gap: 1.6rem;
+}
+
+article{
+    border: 0.3rem solid orange;
+}
+
+.articulo1{
+    grid-column: 2 / 4;
+    /* grid-area: articulo1; */
+}
+
+.articulo2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 2 / 4;
+    /* grid-area: articulo2; */
+}
+
+.articulo3{
+    /* grid-area: articulo3; */
+}
+
+.articulo4{
+    /* grid-area: articulo4; */
+}
+
+.articulo5{
+    /* grid-area: articulo5; */
+}
+
+.articulo6{
+    /* grid-area: articulo6; */
+}

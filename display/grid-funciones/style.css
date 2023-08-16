@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+main{
+    display: grid;
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    /* grid-template-columns: repeat(3, 30rem); */
+     grid-template-columns: repeat(3, minmax(30rem, 50rem)); 
+    grid-template-rows: 60rem 60rem;
+}
