@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilos del carrusel */
+.carousel {
+    position: relative;
+    width: 300px;
+    max-width: 100%;
+}
+
+.slide {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+/* Estilos de los controles */
+.controls {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+label {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    background-color: #333;
+    border-radius: 50%;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+}
+
+input[type="radio"]:checked + label {
+    background-color: #007BFF;
+}
+
+/* Configuración de la animación automática */
+input[type="radio"] {
+    position: absolute;
+    top: -9999px;
+}
+
+/* Inicialmente, mostrar el primer slide */
+#slide-1:checked ~ .slide-1,
+#slide-2:checked ~ .slide-2,
+#slide-3:checked ~ .slide-3 {
+    opacity: 1;
+}
+
+/* Animación automática */
+#slide-1:checked ~ #slide-2:checked ~ #slide-3:checked ~ .slide-1 {
+    animation: auto-play 5s infinite;
+}
+
+#slide-2:checked ~ #slide-3:checked ~ #slide-1:checked ~ .slide-2 {
+    animation: auto-play 5s infinite;
+}
+
+#slide-3:checked ~ #slide-1:checked ~ #slide-2:checked ~ .slide-3 {
+    animation: auto-play 5s infinite;
+}
+
+@keyframes auto-play {
+    0%, 100% { opacity: 0; }
+    25%, 75% { opacity: 1; }
+}
